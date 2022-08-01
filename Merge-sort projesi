@@ -1,0 +1,15 @@
+# Merge-sort projesi
+- Bir sıralama algoritmasıdır. Diziyi sürekli ikiye bölerek en küçük haline kavuşturur ve sıralama yaparak birleştirir.
+## Diziyi Merge-sort türüne göre aşamalandırın
+[16,21,11,8,12,22]
+- [16,21,11]-[8,12,21]
+- [16,21]-[11]--[8,12]-[22]
+- [16]-[21]--[11]---[8]---[12]-[22] // en küçük haline kavuşuktan sonra ayırma parçalarına dikkat ederek sıralamaya başlanır
+- [16,21]-[11]--[8,12]-[22]
+- [11,16,21]-[8,12,22]
+- [8,11,12,16,21,22] // dizimizin sıralı hali
+### Big-O gösterimini yazın
+- Big-o gösterimi: O(nlogn)
+
+# Patika.Dev
+www.patika.dev
