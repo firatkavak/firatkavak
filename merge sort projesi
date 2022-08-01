@@ -1,0 +1,14 @@
+# Merge-Sort 
+-Sıralama algoritmasıdır. Diziyi sürekli ikiye parçalayarak küçükten büyüğe sıralayacağız.
+## Verilen diziyi Merge-sort algoritmasıyla sıralayınız.
+[16,21,11,8,12,22]
+[16,21,11]-[8,12,22]  // diziyi ortadan ikiye bölerek en küçük haline kavuştururuz
+[16,21]-[11]--[8,12]-[22] 
+[16]-[21]--[11]---[8]-[12]--[22] // tek eleman kalana kadar böldük ve şimdi bölme gruplarımıza dkkat ederek elemanları sıralayarak birleştireceğiz
+[16,21]-[11]--[8,12]-[22]
+[11,16,21]-[8,12,22]
+[8,11,12,16,18,22] // en son halini elde ettik.
+##Big-O gösterimi
+-Big-O gösterimi: O(nlogn)
+#Patika dev
+www.patika.dev
