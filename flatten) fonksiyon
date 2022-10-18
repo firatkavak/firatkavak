@@ -1,0 +1,20 @@
+def flatten(ana_liste):
+  new_list=[]
+  for iç_liste in ana_liste:
+      if type(iç_liste)==list:
+          for iç_liste2 in iç_liste:
+              if type(iç_liste2)==list:
+                  for iç_liste3 in iç_liste2:
+                      if type(iç_liste3)==list:
+                          for iç_liste4 in iç_liste3:
+                              if type(iç_liste4)==list:
+                                  print("yeterli kod yazılmadı")
+                              else:
+                                  new_list.append(iç_liste4)   
+                      else:
+                          new_list.append(iç_liste3)
+              else:
+                  new_list.append(iç_liste2)           
+      else:
+          new_list.append(iç_liste)
+return new_list
